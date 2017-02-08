@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <radialGradient cy="0.445313" cx="0.5495" spreadMethod="pad" id="svg_4">
+   <stop offset="0" stop-color="#000000"/>
+   <stop offset="0.58075" stop-color="#ffffff"/>
+  </radialGradient>
+  <linearGradient id="svg_5">
+   <stop offset="0" stop-color="#ff7f00"/>
+   <stop offset="0.815125" stop-color="#0080ff"/>
+   <stop offset="0.822937" stop-opacity="0" stop-color="0"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <polygon stroke="url(#svg_4)" stroke-width="0" points="280.3398151997353,123 235.99356170518513,151.60348510742188 164.2397918701172,140.67791748046875 164.2397918701172,105.32207489013672 235.99356170518513,94.39651489257812 280.3398151997353,123 " strokeWidth="0" strokecolor="#000000" fill="url(#svg_5)" edge="89.742842" orient="x" sides="5" shape="regularPoly" id="svg_1" cy="137" cx="225"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_2" y="131" x="203" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">P&amp;O</text>
+ </g>
+</svg>
