@@ -1,10 +1,136 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Documento sin título</title>
-</head>
+<!DOCTYPE html> 
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+        <meta name="description" content="Hoja de Vida Digital Pablo Oggero">
+        <meta name="author" content="Pablo Adrian Oggero">
+        <meta name="viewport" content="width=device-width user-scalable=no">
+		<title>Ruta de Vida</title>
+	</head>
 
-<body>
-</body>
+	<body>
+    	<header>
+        	<?xml version="1.0"?>
+			<svg width="300" height="150" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+				<!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+				<defs>
+					<linearGradient id="svg_4">
+						<stop offset="1" stop-color="#000000"/>
+						<stop offset="1" stop-color="#ffffff"/>
+					</linearGradient>
+					<linearGradient id="svg_5">
+						<stop offset="0" stop-color="#000000"/>
+						<stop offset="0.451843" stop-color="#ffffff"/>
+						<stop offset="1" stop-color="#ffffff"/>
+					</linearGradient>
+				</defs>
+ 				<g>
+					<title>Logo</title>
+				  	<ellipse opacity="0.25" ry="45" rx="72" id="svg_1" cy="100" cx="183" stroke-width="5" stroke="url(#svg_5)" fill="#aaaaff"/>
+				  	<text stroke="url(#svg_4)" transform="matrix(1.4626980716793696,0,0,1.6907076897317097,-67.11775527752611,-50.00167708441653) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_3" y="96" x="171" opacity="0.25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">P&amp;O</text>
+				</g>
+				su navegador no soporta SVG
+			</svg>
+            
+        	<h1>Hoja de Vida</h1>
+            <h2>Pablo Oggero</h2>
+            <h3>1980</h3>
+            <h3>Buenos Aires</h3>
+            <hr>
+        	<nav>
+            	<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="educacion.html">Educacion</a></li>
+					<li><a href="experiencia.html">Experiencia</a></li>
+				</ul>
+            </nav>
+        </header>
+        
+        <section>
+        	<hr>
+        	<h2>Educación</h2>
+            <hr>
+        	<table border="1">
+            	<thead>
+                	<th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>Culminó</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2007</td>
+                        <td>Instituto del Profesorado</td>
+                        <td>rafaela</td>
+                        <td>Si</td>
+                    </tr> 
+                    <tr>
+                        <td>2010</td>
+                        <td>UTN</td>
+                        <td>rafaela</td>
+                        <td>Si</td>
+                    </tr> 
+                    <tr>
+                        <td>2014</td>
+                        <td>UCSF</td>
+                        <td>Santa fe</td>
+                        <td>Si</td>
+                    </tr> 
+                </tbody>
+            </table>
+        </section>
+        <section>
+       		<hr>
+        	<h2>Agregar Educación</h2>
+            <hr>
+          	<form>
+            	<p>
+                	<label>Año:</label>
+                    <select name="OS">
+                       <option value="1">2000</option> 
+                       <option value="2">2001</option> 
+                       <option value="3">2002</option>
+                       <option value="4">2003</option> 
+                       <option value="5">2003</option> 
+                       <option value="6">2005</option>
+                       <option value="7">2006</option> 
+                       <option value="8">2007</option> 
+                       <option value="9">2008</option>
+                       <option value="10">2009</option> 
+                       <option value="11">2010</option> 
+                       <option value="12">2011</option> 
+                       <option value="13">2012</option> 
+                       <option value="14">2013</option> 
+                       <option value="15">2014</option>
+                       <option value="16">2015</option> 
+                       <option value="17">2016</option> 
+                       <option value="18">2017</option>
+                    </select>
+                </p>
+                <p>
+                	<label>Institución:</label>
+                    <input type="text"  required/>
+                </p>
+                <p>
+                	<label>Lugar:</label>
+                    <textarea rows="2" cols="30" required placeholder="Cuidad donde realizó Educación"></textarea>
+                </p>
+                <p>
+                	<label>Culmino?:</label> <br>
+                    <input type="radio" name="cul" value="Si" checked> Si<br>
+  					<input type="radio" name="cul" value="No"> No<br>
+                </p>
+                <p>
+                	<input type="submit" value="Guardar"/>
+                    <input type="reset" value="limpiar"/>
+                </p>
+            </form>
+            <hr>
+        </section>
+        <footer>
+        	<p><strong>Celular: </strong>03495-15659948</p>
+            <p><strong>E-mail: </strong>oggero.pablo@gmail.com</p>
+            <p></p>
+        </footer>
+	</body>
 </html>
